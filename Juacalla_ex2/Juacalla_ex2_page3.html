@@ -1,0 +1,328 @@
+<!-- Daryl Josh B. Juacalla -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>REAL LIVING Real Estate</title>
+
+    <style>
+        .font {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        .su {
+            background-image: url("signup.jpg");
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            }
+
+        th, td {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid #FFFFF0;
+            padding: 10px;
+        }
+
+    </style>
+
+    <a id="Top"></a>
+    
+
+
+</head>
+
+<a href="Juacalla_ex2_page1.html"> <img style="float: left; padding-right: 2%;" src="logo_house.png" width="100" height="100" alt="REAL LIVING Logo"></a>
+
+
+<body style="background-color: #FFFFF0;">
+
+    <br /><h1 style="float: left;" class="font">REAL LIVING Real Estate</h1>
+
+    <br />
+    <br />
+    
+    <nav class="font" style="font-size: x-large;" align="right">
+        <a href="Juacalla_ex2_page1.html">About</a> |
+        <a href="Juacalla_ex2_page2.html">Floor Plan</a> |
+        <a href="Juacalla_ex2_page3.html">Sign-up</a> |
+    </nav>
+    <br />
+    <br />
+    
+    <div class="su"></div>
+    <h1 class="center" style="font-family:Arial, Helvetica, sans-serif; color: white;">Sign-up</h1>
+    <div style="height:3000px;background-color:rgb(212, 222, 231);">
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3 class="font" align="center">Want to Inquire? Sign-up Now!</h3>
+        <hr style="margin-left: 15%; margin-right: 15%;">
+        <br />
+        
+        <h4 class="font" align="center">Make sure that you properly fill-up the form.</h4>
+        <br />
+
+        <form class="font" method="post" action="mailto:test-user@mail.com" autocomplete="on" style="margin-left: 15%; margin-right: 15%; background-color: aliceblue; padding: 5%;">
+            <br />
+            <br />
+            <fieldset><legend align=left><b>Personal Information</b></legend>
+                <br />
+                <label for="fname">Given Name: </label><input type="text" id="fname" size=21  maxlength=30 placeholder="Juan">
+                
+                <br />
+                <br />
+                <label for="mname">Middle Name: <input type="text" id="mname" size=20  maxlength=30 placeholder="Masipag">
+                <br />
+                <br />
+                <label for="lname">Surname: </label><input type="text" id="lname" size=25  maxlength=30 placeholder="Dela Cruz">
+                <br />
+                <br />
+                <label for="cell_number">Cell Contact Number: </label>
+                <br />
+                <input type="text" id="number_id" size=20  maxlength=30 value="+63" placeholder="09012345678">
+                <br />
+                <br />
+                <label for="email">Email Address: </label>
+                <br />
+                <input type="email" id="email_add" size=20  maxlength=30 placeholder="user-me@mail.com">
+
+                <br />
+                <br />
+                <label for="sex">Sex:</label>
+                <input type="radio" id="male_id" name="sex" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female_id" name="sex" value="female">
+                <label for="female">Female</label>
+                <br>
+                <br>
+                <br>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" id="dob">
+                <br>
+                <br>
+                <label for="sal">Monthly Salary: </label>
+                <select name="sal" id="sal_id">
+                    <option value="blank"> </option>
+                    <option value="Php 25,000 below">Php 25,000 below</option>
+                    <option value="Php 25,000-35,000">Php 25,000-35,000</option>
+                    <option value="Php 35,000 45,000">Php 35,000 45,000</option>
+                    <option value="Php 35,000 45,000">Php 45,000 above</option>
+                </select>
+                <br />
+                <br />
+                
+                <label for="region">Region: </label>
+                <input list="regions" name="location" id="location_id">
+                <datalist id="regions">
+                    <option value="Region I">
+                    <option value="Region II">
+                    <option value="Region III">
+                    <option value="CALABARZON">
+                    <option value="MIMAROPA">
+                    <option value="Region V">
+                    <option value="Region VI">
+                    <option value="Region VII">
+                    <option value="Region VIII">
+                    <option value="Region IX">
+                    <option value="Region X">
+                    <option value="Region XI">
+                    <option value="Region XII">
+                    <option value="Region XIII">
+                    <option value="NCR">
+                    <option value="CAR">
+                    <option value="BARMM">
+                </datalist>
+
+
+            </fieldset>
+        
+        <br>
+        <br>
+        <hr style="margin-left: 5%; margin-right: 5%;">
+        <br>
+        <br>
+
+        <fieldset><legend align="left"><b>Preferences</b></legend>
+            <h4>Check the Boxes of your Preferred Home Features</h4>
+            <input type="checkbox" name="feat.1"><label>Balcony</label>
+            <br />
+            <input type="checkbox" name="feat.2"><label>Bar Area</label>
+            <br />
+            <input type="checkbox" name="feat.3"><label>Car Garage</label>
+            <br />
+            <input type="checkbox" name="feat.4"><label>Cellar</label>
+            <br />
+            <input type="checkbox" name="feat.5"><label>Garden</label>
+            <br />
+            <input type="checkbox" name="feat.6"><label>Home Theatre</label>
+            <br />
+            <input type="checkbox" name="feat.7"><label>Swimming Pool (Indoor)</label>
+            <br />
+            <input type="checkbox" name="feat.8"><label>Swimming Pool (Outdoor)</label>
+            <br />
+            <input type="checkbox" name="feat.9"><label>Terrace</label>
+            <br />
+            <input type="checkbox" name="feat.10"><label>Water Feature</label>
+            <br />
+            <input type="checkbox" name="feat.O"><label>Others</label>
+            <br />
+            <textarea rows=1 cols=30 id="others"></textarea>
+            <br />
+            <br />
+            <label for="q1">Number of Bedrooms: </label>
+            <input type="number" min="1" max="10" name="q1">
+            <br />
+            <br />
+            <label for="q1">Number of Bathrooms: </label>
+            <input type="number" min="1" max="5" name="q1">
+            <br />
+            <br />
+            <label for="ac">Air Conditioned: </label>
+            <input type="radio" id="ac_1" name="ac" value="ac_1">
+            <label for="yes">Yes</label>
+            <input type="radio" id="ac_2" name="ac" value="ac_2">
+            <label for="no">No</label>
+            <input type="radio" id="ac_3" name="ac" value="ac_3">
+            <label for="either">Either</label>
+            <br />
+            <br />
+            <label for="fname">Color Scheme: </label><input type="text" id="fname" size=21  maxlength=30 placeholder="Shades of White">
+            <br />
+            <br />
+            <label for="sal">Lot Size:  </label>
+            <select name="sal" id="sal_id">
+                <option value="blank"> </option>
+                <option value="40-50 sqm">40-50 sqm</option>
+                <option value="50-60 sqm">50-60 sqm</option>
+                <option value="60-70 sqm">60-70 sqm</option>
+                <option value="above 70 sqm">above 70 sqm</option>
+            </select>
+            <br />
+            <br />
+            <label for="sal">Office:  </label>
+                <select name="sal" id="sal_id">
+                    <option value="blank"> </option>
+                    <option value="Work Office">Work Office</option>
+                    <option value="Music Studio">Music Studio</option>
+                    <option value="Art Studio">Art Studio</option>
+                    <option value="Content Creator Office">Content Creator Office</option>
+                </select>
+
+        </fieldset>
+        
+        <br>
+        <br>
+        <hr style="margin-left: 5%; margin-right: 5%;">
+        <br>
+        <br>
+
+
+        <fieldset><legend align="left"><b>Survey</b></legend>
+            <h4>You've come to our brand, where did you find us out? Check all that applies.</h4>
+            <input type="checkbox" name="c1"><label>TV Advertisement</label>
+            <br />
+            <input type="checkbox" name="c2"><label>Radio</label>
+            <br />
+            <input type="checkbox" name="c3"><label>Online Advertisement</label>
+            <br />
+            <input type="checkbox" name="c4"><label>Sales Representative</label>
+            <br />
+            <input type="checkbox" name="c5"><label>Colleagues</label>
+            <br />
+            <input type="checkbox" name="cO"><label>Others</label>
+            <br />
+            <textarea rows=1 cols=30 id="others"></textarea>
+            <br />
+            <br />
+            <label for="q1">Rate Us (1-being the lowest and 10-being the highest): </label>
+            <input type="number" min="1" max="10" name="q1">
+            <br />
+            <br />
+            <label for="ac">Would You Recommend Us to Others? </label>
+            <input type="radio" id="s_1" name="survey" value="s_1">
+            <label for="yes">Yes</label>
+            <input type="radio" id="s_2" name="survey" value="s_2">
+            <label for="no">No</label>
+            <input type="radio" id="s_3" name="survey" value="s_3">
+            <label for="Not Surer">Not Sure</label>
+            <br />
+            <br />
+            <label for="fname">Explain Why Briefly </label><input type="text" id="fname" size=21  maxlength=100>
+            
+        </fieldset>
+
+
+        <br>
+        <br>
+        <hr style="margin-left: 5%; margin-right: 5%;">
+        <br>
+        <br>
+
+        <fieldset><legend align="left"><b>Inquiries</b></legend>
+            <br />
+            <textarea rows=20 cols=110 id="inquiry"></textarea>
+            <br />
+            <br />
+        </fieldset>
+
+        <br>
+        <br>
+        <hr style="margin-left: 5%; margin-right: 5%;">
+        <br>
+        <br>
+
+        <fieldset><legend align="left"><b>Suggestions</b></legend>
+            <br />
+            <textarea rows=5 cols=110 id="suggest"></textarea>
+            <br />
+            <br />
+        </fieldset>
+        <br />
+        <br />
+            <input type=submit value=submit>
+            <input type=reset value=reset>
+            
+            
+            
+            
+            
+            
+            
+            </form>
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+           
+            
+            <a href="#Top"><img style="display: block; float: right; margin-right:15%; " src="up.png" width="50" height="50" alt="Go Back to Top"></a>
+            <br />
+            <br />
+            <br />
+            <br />
+
+        
+        
+              
+<hr size="20" noshade="">
+ </div>
+
+
+</body>
+</html>
